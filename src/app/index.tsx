@@ -13,22 +13,13 @@ const  Page  = () => {
   const [value, setValue] = useState("")
 
   return (
-    <SafeAreaView style={{ backgroundColor: "blue" , flex: 1  }} >
-    <ThemedView style={{paddingHorizontal:10, }} >
-      <Text style={{color: "red"}} > Page </Text>
-      <View style={{borderColor: "red" }} >
-        <Spacer/>
-        <ThemedText style={{}} >Hiiiiiiiii</ThemedText>
-      </View>
-
-<ThemedButton    > Button </ThemedButton>
-
- <SearchInput value={value} onChangeText={setValue} placeholder='search'    />
-
- <Input value={value} onChangeText={setValue} placeholder='enter email'  />
+    
+    <ThemedView style={{paddingHorizontal:10  , flex: 1, height: 50 }} >
+      <ThemedText  > Page </ThemedText>
+      
 
     </ThemedView>
-    </SafeAreaView>
+  
   )
 }
 

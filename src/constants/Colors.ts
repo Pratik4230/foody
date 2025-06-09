@@ -1,41 +1,39 @@
 export const Colors = {
-
-
   dark: {
-    text: "#d4d4d4",
-    title: "#fff",
-    background: "#000",
-    navBackground: "#201e2b",
-    iconColor: "#9591a5",
-    iconColorFocused: "#fff",
-    uiBackground: "#2f2b3d",
-    
-   button: {
-    blue: { background: '#60a5fa', text: '#000' },
-    black: { background: '#000', text: '#fff' },
-    white: { background: '#fff', text: '#000' },
-    red: { background: '#f87171', text: '#000' },
-    orange: { background: '#fb923c', text: '#000' },
-    green: { background: '#34d399', text: '#000' },
-  }
+    text: "#F1F1F1", // Slightly off-white for better readability
+    title: "#FFFFFF",
+    background: "#0D0D0D", // Almost pure black but easier on the eyes
+    navBackground: "#1A1A1A",
+    iconColor: "#A1A1AA", // Neutral gray for inactive icons
+    iconColorFocused: "#FFFFFF",
+    uiBackground: "#1F1F2E", // Slight purple tint for depth
+
+    button: {
+      blue: { background: '#3B82F6', text: '#FFFFFF' },
+      black: { background: '#000000', text: '#FFFFFF' },
+      white: { background: '#FFFFFF', text: '#000000' },
+      red: { background: '#EF4444', text: '#FFFFFF' },
+      orange: { background: '#F97316', text: '#FFFFFF' },
+      green: { background: '#10B981', text: '#FFFFFF' },
+    }
   },
 
   light: {
-      text: "#625f72",
-    title: "#201e2b",
-    background: "#e0dfe8",
-    navBackground: "#e8e7ef",
-    iconColor: "#686477",
-    iconColorFocused: "#201e2b",
-    uiBackground: "#d6d5e1",
+    text: "#2C2C2C",
+    title: "#1A1A1A",
+    background: "#FFFFFF",
+    navBackground: "#F1F1F5",
+    iconColor: "#6B7280", // Cool gray for unselected
+    iconColorFocused: "#111827", // Dark slate for focused
+    uiBackground: "#E5E7EB",
 
-      button: {
-    blue: { background: '#3b82f6', text: '#fff' },
-    black: { background: '#000', text: '#fff' },
-    white: { background: '#fff', text: '#000' },
-    red: { background: '#ef4444', text: '#fff' },
-    orange: { background: '#f97316', text: '#fff' },
-    green: { background: '#10b981', text: '#fff' },
+    button: {
+      blue: { background: '#3B82F6', text: '#FFFFFF' },
+      black: { background: '#000000', text: '#FFFFFF' },
+      white: { background: '#FFFFFF', text: '#000000' },
+      red: { background: '#EF4444', text: '#FFFFFF' },
+      orange: { background: '#F97316', text: '#FFFFFF' },
+      green: { background: '#10B981', text: '#FFFFFF' },
+    }
   }
-  }
-}
+};
