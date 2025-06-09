@@ -1,25 +1,41 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+export const Colors = {
 
-export default {
-  light: {
-    text: '#000',
-    background: '#fff',
-    tint: tintColorLight,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorLight,
-  },
+
   dark: {
-    text: '#fff',
-    background: '#000',
-    tint: tintColorDark,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorDark,
+    text: "#d4d4d4",
+    title: "#fff",
+    background: "#000",
+    navBackground: "#201e2b",
+    iconColor: "#9591a5",
+    iconColorFocused: "#fff",
+    uiBackground: "#2f2b3d",
+    
+   button: {
+    blue: { background: '#60a5fa', text: '#000' },
+    black: { background: '#000', text: '#fff' },
+    white: { background: '#fff', text: '#000' },
+    red: { background: '#f87171', text: '#000' },
+    orange: { background: '#fb923c', text: '#000' },
+    green: { background: '#34d399', text: '#000' },
+  }
   },
-  primary: '#20E1B2',
-  lightGrey: '#FCF8FF',
-  grey: '#EEE9F0',
-  medium: '#9F9AA1',
-  mediumDark: '#424242',
-  green: '#437919',
-};
+
+  light: {
+      text: "#625f72",
+    title: "#201e2b",
+    background: "#e0dfe8",
+    navBackground: "#e8e7ef",
+    iconColor: "#686477",
+    iconColorFocused: "#201e2b",
+    uiBackground: "#d6d5e1",
+
+      button: {
+    blue: { background: '#3b82f6', text: '#fff' },
+    black: { background: '#000', text: '#fff' },
+    white: { background: '#fff', text: '#000' },
+    red: { background: '#ef4444', text: '#fff' },
+    orange: { background: '#f97316', text: '#fff' },
+    green: { background: '#10b981', text: '#fff' },
+  }
+  }
+}
